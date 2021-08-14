@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana speak</title>
     <style>
-        #input{
-            padding : 10px
-             height : 80% 
+        textarea{
+            width:80%;
+            height:3rem;
+
+
+        }
+        #output {
+            width:80%;
+            border: 1px solid black;
+            padding:10px;
+            height: 3rem;
         }
     </style>
 </head>
 <body>
+    <h1>Banana translator</h1>
     <script> srch="app.js"</script>
+       <textarea id="input" placeholder="Enter the text to be translated"></textarea>
+        <button id="btn-translate"> Translate </button>
+        <h2>The translated sentence is below</h2>
 
-     <div id="input">
-       
-        <button> Translate  </button>
-
-     </div>
-   
+        <div id="output" > </div>
     
 </body>
 </html>
