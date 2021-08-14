@@ -1,6 +1,6 @@
-var btntranslate = document.querySelector("#btn-translate");
-console.log(btntranslate);
-btn.addEventListener("click", function thiisway() 
-            {
-                console.log("is this way works");
-            })
+var btnclck = document.querySelector("#input-btn");
+console.log(btnclck);
+
+
+// alert("fine");
+// prompt("no need to work i will check")
